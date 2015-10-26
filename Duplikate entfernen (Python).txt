@@ -1,0 +1,6 @@
+def remove_duplicates(x):
+    number = []
+    for n in x:
+        if n not in number:
+            number.append(n)
+    return number

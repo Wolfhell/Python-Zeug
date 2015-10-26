@@ -1,0 +1,4 @@
+def function(name):
+	text_split = text.split(word)
+	stars = "*" * len(word)
+	return stars.join(text_split)

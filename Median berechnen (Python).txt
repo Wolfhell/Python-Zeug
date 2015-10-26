@@ -1,0 +1,10 @@
+def median(x):
+    sorted_list = sorted(x)
+    if len(x) % 2 == 0:
+        num1 = sorted_list[len(x) / 2]
+        num2 = sorted_list[len(x) / 2 - 1]
+        return (num1 + num2) / 2.0
+    else:
+        return sorted_list[(len(x) / 2)]
+        
+print median([1,3,6,8,11,15])
